@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER & NAVIGATION -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">My Portfolio</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <section class="container margin-bottom">
+            <h1 class="section-title">Contact Me</h1>
+            <p style="text-align: center; color: #555; font-size: 1.1rem; max-width: 700px; margin: 0 auto 40px;">
+                I'd love to hear from you! Whether you have a project in mind, questions about my work, or just want to connect, feel free to reach out.
+            </p>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 40px;">
+                <!-- Contact Information -->
+                <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 12px rgba(45, 27, 78, 0.1);">
+                    <h2 style="color: var(--dark-purple); margin-bottom: 30px; font-size: 1.5rem;">Get In Touch</h2>
+
+                    <div style="margin-bottom: 25px;">
+                        <h3 style="color: var(--dark-purple); margin-bottom: 10px; font-size: 1.1rem;">📞 Phone</h3>
+                        <p style="color: #555;">
+                            <a href="tel:+1234567890" style="color: var(--bright-purple); text-decoration: none;">+64 0948-455-4613</a>
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom: 25px;">
+                        <h3 style="color: var(--dark-purple); margin-bottom: 10px; font-size: 1.1rem;">📧 Email</h3>
+                        <p style="color: #555;">
+                            <a href="mailto:hello@portfolio.com" style="color: var(--bright-purple); text-decoration: none;">rensdelsario@portfolio.com</a>
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom: 25px;">
+                        <h3 style="color: var(--dark-purple); margin-bottom: 10px; font-size: 1.1rem;">📍 Location</h3>
+                        <p style="color: #555;">
+                            PHILIPPINES, Luzon<br>
+                            angeles city, pampanga
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom: 25px;">
+                        <h3 style="color: var(--dark-purple); margin-bottom: 10px; font-size: 1.1rem;">⏰ Availability</h3>
+                        <p style="color: #555;">
+                            Monday - Friday<br>
+                            9:00 AM - 6:00 PM
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2 style="color: var(--dark-purple); margin-bottom: 25px; font-size: 1.5rem;">Send Me a Message</h2>
+                    
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name"  placeholder="Your Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email"  placeholder="delsario@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject"  placeholder="Project Inquiry">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"  placeholder="Tell me about your project or questions..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Responsive Layout for Mobile -->
+            <style>
+                @media (max-width: 768px) {
+                    div[style*="grid-template-columns: 1fr 1fr"] {
+                        grid-template-columns: 1fr;
+                    }
+                }
+            </style>
+
+            <!-- FAQ Section -->
+            <section style="margin-top: 60px;">
+                <h2 style="color: var(--dark-purple); margin-bottom: 25px; font-size: 1.8rem; text-align: center;">Frequently Asked Questions</h2>
+                
+                <div class="cards-grid">
+                    <div class="card">
+                        <h3>What is your response time?</h3>
+                        <p>I typically respond to inquiries within 24 hours during business days. For urgent matters, you can call my phone number directly.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Do you offer payment plans?</h3>
+                        <p>Yes! I offer flexible payment options. For larger projects, we can arrange a payment schedule that works for both of us.</p>
+                    </div>
+                    <div class="card">
+                        <h3>What is your project turnaround time?</h3>
+                        <p>Project timelines depend on scope and complexity. Typically, small projects take 1-2 weeks, while larger ones may take 4-8 weeks.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Do you offer revisions?</h3>
+                        <p>Absolutely! I include a reasonable number of revisions in every project. My goal is your complete satisfaction with the final product.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Can you work with remote clients?</h3>
+                        <p>Yes, I work with clients worldwide! We can communicate via email, video calls, and project management tools.</p>
+                    </div>
+                    <div class="card">
+                        <h3>What if I don't have a budget set yet?</h3>
+                        <p>No problem! Let's discuss your project first. I'll provide a detailed quote based on your specific needs and requirements.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA -->
+            <div class="light-bg" style="padding: 40px; border-radius: 10px; text-align: center; margin-top: 40px;">
+                <h2 style="color: var(--dark-purple); margin-bottom: 15px;">Ready to Start a Project?</h2>
+                <p style="font-size: 1.1rem; color: #555; margin-bottom: 20px;">
+                    Fill out the form above or reach out directly. I'm excited to hear about your ideas!
+                </p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
